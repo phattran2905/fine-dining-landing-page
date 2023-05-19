@@ -2,10 +2,10 @@ import images from "../constants/images";
 
 type Props = {
 	title: string;
-	containerStyles: string;
+	containerStyles?: string;
 };
 
-function SubHeading({ title, containerStyles }: Props) {
+function SubHeading({ title, containerStyles}: Props) {
 	return (
 		<div className={containerStyles}>
 			<p className="font-cormorant-upright text-white font-bold text-[23px] leading-[29.9px] capitalize tracking-[0.04em]">

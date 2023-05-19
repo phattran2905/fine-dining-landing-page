@@ -1,6 +1,6 @@
 type Props = {
-	styles: string;
 	children: React.ReactNode;
+	styles?: string;
 };
 
 function Button({ children, styles }: Props) {

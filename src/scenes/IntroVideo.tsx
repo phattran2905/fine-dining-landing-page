@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import images from "../constants/images";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
-import styles from "../styles";
 
 type Props = {};
 function IntroVideo({}: Props) {
@@ -9,7 +8,7 @@ function IntroVideo({}: Props) {
   const vidRef = useRef<HTMLVideoElement>(null);
 
   return (
-    <section id="special" className="relative py-10 md:py-24">
+    <section id="special" className="relative">
       <video
         src={images.meal}
         typeof="video/mp4"
