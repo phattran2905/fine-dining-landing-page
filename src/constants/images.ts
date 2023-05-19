@@ -12,6 +12,8 @@ import menu from "../assets/menu.png";
 import chef from "../assets/chef.png";
 import quote from "../assets/quote.png";
 import sign from "../assets/sign.png";
+import logoAward from "../assets/logo.png";
+import laurels from "../assets/laurels.png";
 import meal from "../assets/meal.mp4";
 
 export default {
@@ -29,5 +31,7 @@ export default {
 	chef,
 	quote,
 	sign,
+  logoAward,
+  laurels,
 	meal,
 };
