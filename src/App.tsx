@@ -4,6 +4,7 @@ import Chef from './scenes/Chef'
 import Hero from './scenes/Hero'
 import IntroVideo from './scenes/IntroVideo'
 import Navbar from './scenes/Navbar'
+import PhotoGallery from './scenes/PhotoGallery'
 import TodaySpecial from './scenes/TodaySpecial'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Chef />
       <IntroVideo />
       <Awards />
+      <PhotoGallery />
     </div>
   )
 }
