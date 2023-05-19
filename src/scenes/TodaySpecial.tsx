@@ -10,7 +10,7 @@ function TodaySpecial({}: Props) {
 	return (
 		<section
 			id="special"
-			className="flex flex-col items-center md:py-32 md:bg-none py-20"
+			className="flex flex-col items-center md:py-32 py-20"
 		>
 			<div className="flex flex-col items-center">
 				<SubHeading

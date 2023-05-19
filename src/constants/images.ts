@@ -9,6 +9,9 @@ import spoon from "../assets/spoon.svg";
 import knife from "../assets/knife.png";
 import G from "../assets/G.png";
 import menu from "../assets/menu.png";
+import chef from "../assets/chef.png";
+import quote from "../assets/quote.png";
+import sign from "../assets/sign.png";
 
 export default {
 	logo,
@@ -22,4 +25,7 @@ export default {
 	knife,
 	G,
 	menu,
+	chef,
+	quote,
+	sign,
 };

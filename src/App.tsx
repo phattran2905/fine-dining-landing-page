@@ -1,4 +1,5 @@
 import About from './scenes/About'
+import Chef from './scenes/Chef'
 import Hero from './scenes/Hero'
 import Navbar from './scenes/Navbar'
 import TodaySpecial from './scenes/TodaySpecial'
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <TodaySpecial />
+      <Chef />
     </div>
   )
 }

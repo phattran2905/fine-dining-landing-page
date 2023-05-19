@@ -1,7 +1,6 @@
 import images from "../constants/images";
 import styles from "../styles";
 import Button from "./Button";
-import SubHeading from "./SubHeading";
 
 type Props = {};
 function About({}: Props) {
