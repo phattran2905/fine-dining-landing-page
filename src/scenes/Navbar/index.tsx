@@ -87,20 +87,36 @@ function Navbar({}: Props) {
 				</a>
 
 				{toggled && (
-					<ul
-						className={`flex flex-col justify-center list-none absolute bg-black top-16 -right-6 w-[280px] p-4 rounded-[8px]`}
-					>
-						{navLinks.map((navLink, index) => (
+					<>
+						<ul
+							className={`flex flex-col justify-center list-none absolute bg-black top-16 -right-6 w-[280px] p-4 rounded-[8px]`}
+						>
+							{navLinks.map((navLink) => (
+								<li
+									key={navLink.id}
+									className={`font-open-sans text-white font-normal text-[24px] px-10 py-4 leading-[28px] cursor-pointer hover:text-golden hover:underline mb-5`}
+								>
+									<a href={`#${navLink.id}`}>{navLink.title}</a>
+								</li>
+							))}
+
 							<li
-								key={navLink.id}
-								className={`font-open-sans text-white font-normal text-[24px] px-10 py-4 leading-[28px] cursor-pointer hover:text-golden hover:underline ${
-									index === navLinks.length - 1 ? "mr-0" : "mb-5"
-								}`}
+								className={`font-open-sans text-white font-normal text-[24px] px-10 py-4 leading-[28px] cursor-pointer hover:text-golden hover:underline mb-5`}
 							>
-								<a href={`#${navLink.id}`}>{navLink.title}</a>
+								Log in
 							</li>
-						))}
-					</ul>
+							<li
+								className={`font-open-sans text-white font-normal text-[24px] px-10 py-4 leading-[28px] cursor-pointer hover:text-golden hover:underline mb-5`}
+							>
+								Registration
+							</li>
+							<li
+								className={`font-open-sans text-white font-normal text-[24px] px-10 py-4 leading-[28px] cursor-pointer hover:text-golden hover:underline`}
+							>
+								Book Table
+							</li>
+						</ul>
+					</>
 				)}
 			</div>
 		</nav>
