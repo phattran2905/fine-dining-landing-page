@@ -2,7 +2,7 @@ import Award from "../component/Award";
 import images from "../constants/images";
 import data from "../constants/data";
 import styles from "../styles";
-import SubHeading from "./SubHeading";
+import SubHeading from "../component/SubHeading";
 
 type Props = {};
 function Awards({}: Props) {
@@ -33,7 +33,7 @@ function Awards({}: Props) {
         </div>
 
         <div className="my-10">
-          <div className="h-[691px] w-[483px]">
+          <div className="h-[691px] md:w-[483px]">
             <img
               src={images.laurels}
               alt="laurels"

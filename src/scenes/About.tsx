@@ -1,6 +1,6 @@
 import images from "../constants/images";
 import styles from "../styles";
-import Button from "./Button";
+import Button from "../component/Button";
 
 type Props = {};
 function About({}: Props) {

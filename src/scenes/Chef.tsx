@@ -1,6 +1,6 @@
 import images from "../constants/images";
 import styles from "../styles";
-import SubHeading from "./SubHeading";
+import SubHeading from "../component/SubHeading";
 
 type Props = {};
 function Chef({}: Props) {

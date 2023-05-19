@@ -1,7 +1,7 @@
 import images from "../constants/images";
 import styles from "../styles";
-import Button from "./Button";
-import SubHeading from "./SubHeading";
+import Button from "../component/Button";
+import SubHeading from "../component/SubHeading";
 
 type Props = {};
 function PhotoGallery({}: Props) {

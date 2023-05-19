@@ -1,9 +1,9 @@
 import data from "../constants/data";
 import images from "../constants/images";
 import styles from "../styles";
-import Button from "./Button";
-import MenuItem from "./MenuItem";
-import SubHeading from "./SubHeading";
+import Button from "../component/Button";
+import MenuItem from "../component/MenuItem";
+import SubHeading from "../component/SubHeading";
 
 type Props = {};
 function TodaySpecial({}: Props) {
