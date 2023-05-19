@@ -26,7 +26,7 @@ function Hero({}: Props) {
 					<h1 className="font-bold font-cormorant-upright text-[90px] leading-[117px] tracking-[0.04em] capitalize text-golden my-10 ">
 						The Key To fine Dining
 					</h1>
-					<p className="font-open-sans font-normal text-white md:max-w-[453px] text-[16px] leading-[28px] tracking-[0.04em] mb-10">
+					<p className={`${styles.paragraph} mb-10`}>
 						Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis
 						quam scelerisque sapien. Et, penatibus aliquam amet tellus
 					</p>

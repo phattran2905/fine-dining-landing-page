@@ -6,6 +6,10 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import welcome from '../assets/welcome.png';
 import spoon from '../assets/spoon.svg';
+import knife from '../assets/knife.png';
+import G from '../assets/G.png';
+
+
 
 export default {
   logo,
@@ -15,5 +19,7 @@ export default {
   award03,
   award05,
   welcome,
-  spoon
+  spoon,
+  knife,
+G,
 }
