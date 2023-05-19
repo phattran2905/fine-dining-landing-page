@@ -1,6 +1,7 @@
 import About from './scenes/About'
 import Awards from './scenes/Awards'
 import Chef from './scenes/Chef'
+import Contact from './scenes/Contact'
 import Hero from './scenes/Hero'
 import IntroVideo from './scenes/IntroVideo'
 import Navbar from './scenes/Navbar'
@@ -19,6 +20,7 @@ function App() {
       <IntroVideo />
       <Awards />
       <PhotoGallery />
+      <Contact />
     </div>
   )
 }

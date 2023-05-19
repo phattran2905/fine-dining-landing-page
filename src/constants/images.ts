@@ -18,6 +18,7 @@ import quote from "../assets/quote.png";
 import sign from "../assets/sign.png";
 import logoAward from "../assets/logo.png";
 import laurels from "../assets/laurels.png";
+import findus from "../assets/findus.png";
 import meal from "../assets/meal.mp4";
 
 export default {
@@ -41,5 +42,6 @@ export default {
   sign,
   logoAward,
   laurels,
+  findus,
   meal,
 };
