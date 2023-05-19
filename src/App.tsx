@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import Navbar from './scenes/Navbar'
 
 function App() {
 
   return (
-    <div className='App'>
-      App
+    <div className='app bg-black w-full'>
+      <Navbar />
     </div>
   )
 }
