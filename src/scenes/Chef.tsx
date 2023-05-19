@@ -7,7 +7,7 @@ function Chef({}: Props) {
 	return (
 		<section
 			id="chef"
-			className={`${styles.flexCenter} md:flex-row flex-col md:py-32 py-20`}
+			className={`${styles.flexCenter} md:flex-row flex-col md:py-24 py-20`}
 		>
 			<div className="w-[665px] mb-10 md:mb-0">
 				<img

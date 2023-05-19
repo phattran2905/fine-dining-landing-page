@@ -9,7 +9,7 @@ function About({}: Props) {
 			id="#about"
 			className="w-full bg-blur-black flex flex-row justify-center items-center bg-no-repeat bg-cover"
 		>
-			<div className={`${styles.flexCenter} flex-col md:flex-row relative w-full md:py-32 px-10`}>
+			<div className={`${styles.flexCenter} flex-col md:flex-row relative w-full md:py-24 px-10`}>
 				<img
 					src={images.G}
 					alt="knife"

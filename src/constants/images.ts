@@ -12,6 +12,7 @@ import menu from "../assets/menu.png";
 import chef from "../assets/chef.png";
 import quote from "../assets/quote.png";
 import sign from "../assets/sign.png";
+import meal from "../assets/meal.mp4";
 
 export default {
 	logo,
@@ -28,4 +29,5 @@ export default {
 	chef,
 	quote,
 	sign,
+	meal,
 };
