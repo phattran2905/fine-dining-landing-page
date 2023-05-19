@@ -4,6 +4,8 @@ import award01 from '../assets/award01.png';
 import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
+import welcome from '../assets/welcome.png';
+import spoon from '../assets/spoon.svg';
 
 export default {
   logo,
@@ -12,4 +14,6 @@ export default {
   award02,
   award03,
   award05,
+  welcome,
+  spoon
 }
