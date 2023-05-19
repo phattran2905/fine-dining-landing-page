@@ -1,6 +1,7 @@
 import About from './scenes/About'
 import Hero from './scenes/Hero'
 import Navbar from './scenes/Navbar'
+import TodaySpecial from './scenes/TodaySpecial'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <TodaySpecial />
     </div>
   )
 }
