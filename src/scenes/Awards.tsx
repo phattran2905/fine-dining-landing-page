@@ -27,7 +27,7 @@ function Awards({}: Props) {
           <h2 className={`${styles.heading2}`}>Our Laurels</h2>
           <div className="flex flex-row flex-wrap">
             {data.awards.map((award) => (
-              <Award {...award} />
+              <Award key={award.title} {...award} />
             ))}
           </div>
         </div>
