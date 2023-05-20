@@ -15,7 +15,7 @@ function Subscribe({}: Props) {
           containerStyles="items-center justify-center flex flex-col "
         />
 
-        <h2 className={`${styles.heading2}`}>Subscribe to Our Newsletter</h2>
+        <h2 className={`${styles.heading2} text-center capitalize`}>Subscribe to Our Newsletter</h2>
         <p className={`${styles.paragraph} my-6`}>
           And never miss latest Updates!
         </p>

@@ -17,7 +17,7 @@ function Menu({}: Props) {
 					title="Menu that fits you palatte"
 					containerStyles={`flex flex-col items-center`}
 				/>
-				<h2 className={`${styles.heading2} my-3`}>Today’s Special</h2>
+				<h2 className={`${styles.heading2} my-3 capitalize`}>Today’s Special</h2>
 			</div>
 
 			{/* Menu */}

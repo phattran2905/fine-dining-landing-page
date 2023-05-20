@@ -9,10 +9,12 @@ function Awards({}: Props) {
   return (
     <section
       id="awards"
-      className="bg-blur-black flex flex-row items-stretch md:py-16 md:px-12 p-10"
+      className="flex flex-row items-stretch bg-blur-black p-10 md:px-12 md:py-16"
     >
-      <div className={`flex md:flex-row flex-col md:items-start items-center justify-between`}>
-        <div className="basis-1/12 mr-12">
+      <div
+        className={`flex flex-col items-center justify-between md:flex-row md:items-start`}
+      >
+        <div className="mb-8 mr-12 basis-1/12 md:mb-8">
           <div className="h-[146px] w-[146px]">
             <img
               src={images.logoAward}
@@ -31,7 +33,6 @@ function Awards({}: Props) {
             ))}
           </div>
         </div>
-
         <div className="my-10">
           <div className="h-[691px] md:w-[483px]">
             <img

@@ -18,7 +18,7 @@ function About({}: Props) {
 
 				<div className="z-[2] flex flex-col items-start md:items-end mb-12 md:mb-0">
 					<div className="flex flex-col md:items-end">
-						<h2 className={`${styles.heading2} md:text-right`}>About Us</h2>
+						<h2 className={`${styles.heading2} md:text-right capitalize`}>About Us</h2>
 						<div className="w-[40px]">
 							<img
 								src={images.spoon}
@@ -46,7 +46,7 @@ function About({}: Props) {
 
 				<div className="z-[2] flex flex-col items-start mb-12 md:mb-0">
 					<div className="flex flex-col md:items-start">
-						<h2 className={`${styles.heading2} text-left`}>Our History</h2>
+						<h2 className={`${styles.heading2} text-left capitalize`}>Our History</h2>
 						<div className="w-[40px]">
 							<img
 								src={images.spoon}
