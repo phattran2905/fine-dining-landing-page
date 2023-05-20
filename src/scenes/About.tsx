@@ -6,7 +6,7 @@ type Props = {};
 function About({}: Props) {
 	return (
 		<section
-			id="#about"
+			id="aboutus"
 			className="w-full bg-blur-black flex flex-row justify-center items-center bg-no-repeat bg-cover"
 		>
 			<div className={`${styles.flexCenter} flex-col md:flex-row relative w-full md:py-24 px-10`}>

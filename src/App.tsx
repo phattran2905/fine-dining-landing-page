@@ -8,7 +8,7 @@ import IntroVideo from './scenes/IntroVideo'
 import Navbar from './scenes/Navbar'
 import PhotoGallery from './scenes/PhotoGallery'
 import Subscribe from './scenes/Subscribe'
-import TodaySpecial from './scenes/TodaySpecial'
+import TodaySpecial from './scenes/Menu'
 
 function App() {
 

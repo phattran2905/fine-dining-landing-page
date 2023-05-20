@@ -6,10 +6,10 @@ import MenuItem from "../component/MenuItem";
 import SubHeading from "../component/SubHeading";
 
 type Props = {};
-function TodaySpecial({}: Props) {
+function Menu({}: Props) {
 	return (
 		<section
-			id="special"
+			id="menu"
 			className="flex flex-col items-center md:py-24 py-20"
 		>
 			<div className="flex flex-col items-center">
@@ -70,4 +70,4 @@ function TodaySpecial({}: Props) {
 		</section>
 	);
 }
-export default TodaySpecial;
+export default Menu;

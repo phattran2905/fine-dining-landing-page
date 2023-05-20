@@ -8,7 +8,7 @@ type Props = {};
 function Hero({}: Props) {
 	return (
 		<section
-			id="#home"
+			id="home"
 			className="flex md:flex-row flex-col items-center px-10 xl:py-20 py-10"
 		>
 			<ul className="flex flex-row list-none h-[100%] md:-rotate-90">

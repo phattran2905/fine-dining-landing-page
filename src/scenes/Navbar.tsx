@@ -10,20 +10,24 @@ const navLinks = [
 		title: "Home",
 	},
 	{
-		id: "pages",
-		title: "Pages",
+		id: "aboutus",
+		title: "About Us",
 	},
 	{
-		id: "contactus",
-		title: "Contact Us",
+		id: "menu",
+		title: "Menu",
 	},
 	{
-		id: "blog",
-		title: "Blog",
+		id: "chef",
+		title: "Chef",
 	},
 	{
-		id: "landing",
-		title: "Landing",
+		id: "gallery",
+		title: "Gallery",
+	},
+	{
+		id: "contact",
+		title: "Contact",
 	},
 ];
 
