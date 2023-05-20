@@ -7,17 +7,17 @@ function Footer({}: Props) {
   return (
     <section
       id="footer"
-      className="flex flex-col items-center justify-center bg-blur-black px-10 bg-no-repeat"
+      className="flex flex-col items-center justify-center bg-blur-black bg-no-repeat p-2 md:p-10"
     >
-      <div className="flex w-full flex-col gap-y-10 p-10 items-center">
-        <div className="flex md:flex-row flex-col gap-12">
+      <div className="flex w-full flex-col items-center gap-y-10 p-10 md:px-0 md:pb-0">
+        <div className="flex flex-col gap-12 md:flex-row">
           {/* Contact */}
           <div className="flex flex-col items-center">
-            <h6 className="my-10 font-cormorant-upright text-[32px] font-normal leading-[41.6px] tracking-[0.04em] text-crimson">
+            <h6 className="my-8 font-cormorant-upright text-[32px] font-normal leading-[41.6px] tracking-[0.04em] text-crimson">
               Contact Us
             </h6>
             <ul className="flex list-none flex-col items-center justify-start">
-              <li className="mb-2 mt-6 text-center font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey">
+              <li className="my-4 text-center font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey">
                 9 W 53rd St, New York, NY 10019, USA
               </li>
               <li className="text-center font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey ">
@@ -59,7 +59,7 @@ function Footer({}: Props) {
                 </a>
               </li>
             </ul>
-            <p className="mx-auto mt-20 font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey md:block hidden">
+            <p className="mx-auto mt-20 hidden font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey md:block">
               2023 Gerícht. All Rights reserved.
             </p>
           </div>
@@ -70,7 +70,7 @@ function Footer({}: Props) {
               Working Hours
             </h6>
             <ul className="flex list-none flex-col items-center justify-start">
-              <li className="text-center font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey">
+              <li className="mb-4 text-center font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey">
                 Monday-Friday: <br />
                 08:00 am -12:00 am
               </li>
@@ -81,9 +81,9 @@ function Footer({}: Props) {
             </ul>
           </div>
         </div>
-            <p className="mx-auto my-10 font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey md:hidden block">
-              2023 Gerícht. All Rights reserved.
-            </p>
+        <p className="mx-auto my-10 block font-open-sans text-[16px] font-normal leading-[28px] tracking-[0.04em] text-grey md:hidden">
+          2023 Gerícht. All Rights reserved.
+        </p>
       </div>
     </section>
   );
