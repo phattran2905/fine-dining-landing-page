@@ -8,7 +8,7 @@ const styles = {
 	paragraph:
 		"font-open-sans font-normal text-white md:max-w-[453px] text-[16px] leading-[28px] tracking-[0.04em]",
 	heading2:
-		"font-semibold font-cormorant-upright text-[64px] leading-[83.2px] tracking-[0.03em] capitalize text-golden",
+		"font-semibold font-cormorant-upright text-[64px] leading-[83.2px] tracking-[0.03em] text-golden",
 	dish_name:
 		"font-cormorant-upright font-bold text-[23px] text-golden leading-[29.9px] tracking-[0.04em]",
 };

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Button from "../component/Button";
 import SubHeading from "../component/SubHeading";
-import images from "../constants/images";
 import styles from "../styles";
 
 type Props = {};
