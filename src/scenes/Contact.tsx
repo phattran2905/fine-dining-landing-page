@@ -7,7 +7,7 @@ type Props = {};
 
 function Contact({}: Props) {
   return (
-    <section id="contact" className={`flex justify-center md:items-center md:py-20 p-10 flex-col md:flex-row`}>
+    <section id="contact" className={`flex justify-center md:items-center md:py-20 p-10 flex-col md:flex-row bg-blur-black`}>
       <div className="mb-10 md:mb-0">
         <SubHeading title="Contact" />
 
